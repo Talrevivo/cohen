@@ -1,4 +1,4 @@
-﻿body {
+body {
     direction: rtl;
     font-family: 'Rubik', sans-serif;
     background-image: linear-gradient(#ececec, #fefefe);
@@ -44,11 +44,16 @@ form{
         padding:0!important;
     }
 #rithe {
- -webkit-box-align: center;
- align-items: center;
- padding: 38px 70px 40px 20px;
+    width: 100%;
+}
+#ult {
+    vertical-align: middle;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 38px 70px 40px 20px;
     font-size: 20pt;
     /*margin: 20px;*/
+    /*height: auto;*/
     color: white;
     /*padding: 40px;*/
 }
