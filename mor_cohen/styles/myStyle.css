@@ -31,7 +31,7 @@ form{
 #list {
     background-color: #A52A2A;
     width: auto;
-    height: auto;
+    height: 50vh;
     display: inline-block !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -39,16 +39,16 @@ form{
     #list #imageTwo {
         display: inline-block !important;
         float: left;
-        height: auto;
-        width: auto;
+        height: 50vh;
+        width: 100%;
         padding:0!important;
     }
     #list #rithe {
         -webkit-box-align: center;
         align-items: center;
-        padding: 38px 70px 40px 40px;
+        /*padding: 38px 70px 40px 40px;*/
         font-size:x-large;
-        margin-top: 20px;
+        margin-right: 60px;
         color: white;
         /*padding: 40px;*/
     }
@@ -221,12 +221,18 @@ footer {
         height: 10%;
         width: 20%;
     }
+        #list {
+            width: auto!important;
+            height: auto!important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
 
     #imageTwo {
         /*display: inline-block;
         float: left;*/
-        height: auto;
-        width: auto;
+        height: auto!important;
+        width: auto!important;
     }
         h2 {
             font-size: 20pt !important;
@@ -266,7 +272,7 @@ footer {
             padding: 0 !important;
         }
 }
-@media only screen and (max-device-width : 1124px) {
+@media only screen and (max-device-width : 1124px){
     body {
         width: 100%;
     }
@@ -290,21 +296,26 @@ footer {
         height: 10%;
         width: 10%;
     }
-
-    #imageTwo {
-        /*display: inline-block;*/
-        /*float: left;*/
-        height: auto;
-        width: auto;
+    #list {
+        width: auto !important;
+        height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 
+    #imageTwo {
+        /*display: inline-block;
+        float: left;*/
+        height: auto !important;
+        width: auto !important;
+    }
     #rithe {
         /*display: inline-block;*/
         /*padding-left: 30px;*/
         padding: 0 !important;
         margin: 0 !important;
         font-size: 20pt;
-        text-align: center;
+        text-align: center!important;
     }
     #ritheP {
         /*display: inline-block;*/
@@ -325,4 +336,5 @@ footer {
         padding: 0 !important;
     }
 }
+
 
