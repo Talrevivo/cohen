@@ -43,20 +43,20 @@ form{
         width: auto;
         padding:0!important;
     }
-#rithe {
-    width: 100%;
-}
-#ult {
-    vertical-align: middle;
-    -webkit-box-align: center;
-    align-items: center;
-    padding: 38px 70px 40px 20px;
-    font-size: 20pt;
-    /*margin: 20px;*/
-    /*height: auto;*/
-    color: white;
-    /*padding: 40px;*/
-}
+    #list #rithe {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 100% !important;
+        max-height: 100% !important;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 38px 70px 40px 40px;
+        font-size: 20pt;
+        /*margin: 20px;*/
+        color: white;
+        /*padding: 40px;*/
+    }
 #and {
     background-color: #A52A2A;
     width: auto;
@@ -72,15 +72,15 @@ form{
             width: auto;
             padding: 0 !important;
         }
-#ritheP {
-    -webkit-box-align: center;
-    align-items: center;
-    padding: 38px 45px 40px 20px;
-    font-size: 20pt;
-    /*font-size: 22pt;*/
-    color: white;
-    /*margin:25px;*/
-}
+    #and #ritheP {
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 38px 70px 40px 20px;
+        font-size: 20pt;
+        /*font-size: 22pt;*/
+        color: white;
+        /*margin:25px;*/
+    }
 #info{
     font-size:15pt;
     color: black!important;
