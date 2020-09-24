@@ -29,28 +29,32 @@ form{
     width: 30%;
 }
 #list {
-    background-color: #A52A2A;
-    width: auto;
-    height: 50vh;
-    display: inline-block !important;
-    margin: 0 !important;
-    padding: 0 !important;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
-    #list #imageTwo {
-        vertical-align:middle;
-        display: inline-block !important;
-        float: left;
-        height: 50vh;
-        width: 100%;
-        padding:0!important;
+.gallery {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center!important;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33px;
+    -moz-column-width: 33px;
+    column-width: 33px;
+}
+
+    .gallery .pics {
+        -webkit-transition: all 350ms ease;
+        transition: all 350ms ease;
     }
-    #list #rithe {
-        vertical-align: middle;
-        /*padding: 38px 70px 40px 40px;*/
-        font-size: x-large;
-        margin-right: 60px;
-        color: white;
-        /*padding: 40px;*/
+    .iconim{
+        width:25%;
+    }
+    .pI{
+        padding-top:5px;
     }
 #and {
     background-color: #A52A2A;
@@ -82,9 +86,6 @@ form{
 }
 #boldP {
 font-size:26pt;
-}
-#nopoint {
-    list-style-type: none;
 }
 #icons {
     padding-top: 5px;
@@ -222,34 +223,23 @@ footer {
         width: 20%;
     }
         #list {
-            width: auto!important;
-            height: auto!important;
-            margin: 0 !important;
-            padding: 0 !important;
+            width: 100%;
+            position: relative;
         }
-
-    #imageTwo {
-        /*display: inline-block;
-        float: left;*/
-        height: auto!important;
-        width: auto!important;
-    }
         h2 {
             font-size: 20pt !important;
             font-weight:bold;
-        }
-        #rithe {
-            /*display: inline-block;*/
-            padding: 0 !important;
-            margin: 0 !important;
-            font-size: 13pt !important;
-            text-align: center;
         }
         #ritheP {
             padding: 0 !important;
             margin: 0 !important;
             font-size: 13pt !important;
             text-align: center;
+        }
+        #and #imageTwo {
+            height: auto;
+            width: auto;
+            padding: 0 !important;
         }
         #boldP {
             font-size: 20pt!important;
@@ -297,25 +287,8 @@ footer {
         width: 10%;
     }
     #list {
-        width: auto !important;
-        height: auto !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-    #imageTwo {
-        /*display: inline-block;
-        float: left;*/
-        height: auto !important;
-        width: auto !important;
-    }
-    #rithe {
-        /*display: inline-block;*/
-        /*padding-left: 30px;*/
-        padding: 0 !important;
-        margin: 0 !important;
-        font-size: 20pt;
-        text-align: center!important;
+        width: 100%;
+        text-align:center;
     }
     #and {
         width: auto !important;
@@ -341,61 +314,6 @@ footer {
         max-width: 100% !important;
         padding: 0 !important;
     }
-}
-@media only screen and (min-device-width : 1335px) {
-    #list {
-        background-color: #A52A2A;
-        width: auto;
-        height: 50vh;
-        display: inline-block !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-        #list #imageTwo {
-            vertical-align: middle;
-            display: inline-block !important;
-            float: left;
-            height: 50vh;
-            width: 100%;
-            padding: 0 !important;
-        }
-
-        #list #rithe {
-            vertical-align: middle;
-            padding: 65px 60px 50px 50px;
-            font-size: xx-large;
-            margin-right: 60px;
-            color: white;
-            /*padding: 40px;*/
-        }
-
-    #and {
-        background-color: #A52A2A;
-        width: auto;
-        height: 50vh;
-        display: inline-block !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-        #and #imageTwo {
-            vertical-align: middle;
-            display: inline-block !important;
-            float: left;
-            height: 50vh;
-            width: 100%;
-            padding: 0 !important;
-        }
-
-        #and #ritheP {
-            display: inline-block !important;
-            padding: 75px 40px 40px 40px;
-            font-size: xx-large;
-            /*margin-right: 40px;*/
-            color: white;
-            /*padding: 40px;*/
-        }
 }
 
 
